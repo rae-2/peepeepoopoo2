@@ -6,16 +6,19 @@ body,
     box-sizing: border-box;
     font-size: 62.5%;
 }
-.parentcard{
+
+.parentcard {
     font-size: 30px;
     display: flex;
     justify-content: center;
 }
-.card{
-    border: 10px salmon;
+
+.card {
+    border: 10px solid salmon; 
     width: 28%;
 }
-.card-image{
-    border: 300px salmon;
+
+.card-image {
+    border: 10px solid salmon; 
     width: 28%;
 }
