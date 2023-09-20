@@ -16,6 +16,7 @@ body,
     justify-content: space-around;
     align-items: center;
     background-color: palegoldenrod;
+    margin: 10% 0;
 }
 
 .card-image {
