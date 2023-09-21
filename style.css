@@ -5,28 +5,33 @@ body,
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: rgb(102, 109, 170);
 }
 
-.parentcard {
-    width: 27%;
+.container {
+    width: 85vw;
     height: 30%;
-    font-size: 30px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    background-color: palegoldenrod;
-    margin: 10% 0;
+    background-color: rgb(85, 170, 111);
+    margin: auto;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .card-image {
-    border: 4px solid salmon; 
     width: 28%;
+    width: 80%;
+    height: 60%;
+    margin: 1.5rem 0;
+    padding: 20px;
+    background-color: solid rgb(85, 170, 111);
 }
 .card-title {
-    background-color: salmon; 
+    font-size: 2.2rem;
+    margin-top: 15px;
+    background-color: rgb(85, 170, 111); 
 }
-.description{
-    background-color: salmon; 
-
+.card-price{
+    background-color: rgb(85, 170, 111); 
 }
