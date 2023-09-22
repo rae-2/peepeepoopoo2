@@ -5,16 +5,16 @@ body,
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: rgb(85, 170, 111);
+    background-color: rgb(240, 247, 241);
 }
 
 .container {
     width: 85vw;
-    height: 30%;
+    height: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(170, 216, 184);
+    background-color: rgb(211, 210, 149);
     margin: auto;
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -25,13 +25,13 @@ body,
     height: 60%;
     margin: 1.5rem 0;
     padding: 20px;
-    background-color: solid rgb(170, 216, 184);
+    background-color: solid rgb(211, 210, 149);
 }
 .card-title {
-    font-size: 2.2rem;
-    margin-top: 15px;
-    background-color: rgb(170, 216, 184); 
+    font-size: 4.2rem;
+    margin-top: 55px;
+    background-color: rgb(211, 210, 149); 
 }
 .card-price{
-    background-color: rgb(170, 216, 184); 
+    background-color: rgb(211, 210, 149); 
 }
