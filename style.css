@@ -8,9 +8,9 @@ body,
     background-color: rgb(240, 247, 241);
 }
 
+
 .container {
     width: 85vw;
-    height: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -18,12 +18,15 @@ body,
     margin: auto;
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
+.title{
+    text-align: center;
+    font-size: 4.2rem;
+}
 .card-image {
-    width: 28%;
     width: 80%;
     height: 60%;
     margin: 1.5rem 0;
+    object-fit: cover;
     padding: 20px;
     background-color: solid rgb(211, 210, 149);
 }
@@ -34,4 +37,5 @@ body,
 }
 .card-price{
     background-color: rgb(211, 210, 149); 
+    font-size: 2.2rem;
 }
