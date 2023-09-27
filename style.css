@@ -28,24 +28,37 @@ body,
     margin-bottom: 1.5rem;
     padding: 3px;
     background-color: rgb(211, 210, 149);
-    box-shadow: 10px 5px 5px rgb(116, 116, 80);
+    box-shadow: 10px 10px 5px rgb(116, 116, 80);
+ 
 }
 .card-image {
     width: 70%;
     height: 70%;
     filter: grayscale(85%);
+    transition: all .5s;
 }
 .card-title {
     font-size: 2.0rem;
     background-color: rgb(211, 210, 149); 
+    transition: all .5s;
 }
 .card-price{
     background-color: rgb(211, 210, 149); 
     font-size: 1.7rem;
     margin-bottom: 30px rgb(211, 210, 149);
     text-align: center;
+    transition: all .5s;
 }
 .card-image:hover {
     filter: grayscale(0);
-    transform: translate(-10px);
+    transform: rotate(360);
+    transform: scale(1.4);
+}
+
+.card-price:hover {
+    transform: scale(0.9);
+}
+
+.card-title:hover {
+    transform: scale(0.9);
 }
