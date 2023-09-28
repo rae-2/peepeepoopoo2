@@ -63,12 +63,11 @@ body,
 }
 .card-image:hover {
     filter: grayscale(0);
-    transform: rotate(360);
     transform: scale(1.4);
 }
 
 .card-price:hover {
-    transform: scale(0.9);
+    transform: scale(0.7);
     filter:opacity(40%);
 }
 
