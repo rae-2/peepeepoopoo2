@@ -35,6 +35,11 @@ body,
     box-shadow: 10px 10px 5px rgb(116, 116, 80);
  
 }
+@media screen and (max-width: 1180px){
+    .parentcard{
+        width: 44%;
+    }
+}
 @media screen and (max-width: 844px){
     .parentcard{
         width: 100%;
